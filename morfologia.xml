@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Xslmorfologia.xsl"?>  
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+  
+    <fileDesc> <!-- Primo elemento di TEI HEADER che contiene una descrizione bibliografica completa -->
+      <titleStmt>
+        <title xml:lang="fr" type="main"> Morphologie </title>
+        <title xml:lang="it" type="alt">Morfologia</title>
+        <author ref="#FDS">Ferdinand de Saussure</author>
+        <respStmt>
+          <resp>Traduzione effettuata da:</resp>
+          <name xml:id="EF">Emanuele Fadda</name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>
+           Edizione Digitale - <date when="2022">Febbraio 2023</date>
+        </edition>
+        <respStmt>
+          <resp>Progetto sotto la guida di </resp>
+          <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica realizzata da:</resp>
+          <name xml:id="ML">Matteo Lombardo</name>
+          <name xml:id="CY">Congle Ye</name>
+        </respStmt>
+      </editionStmt>
+      
+      <publicationStmt> 
+        <publisher>Università di Pisa</publisher>
+        <pubPlace>Pisa, PI</pubPlace>
+        <address>
+           <postCode>56127</postCode>
+            <name>Italia</name>
+        </address>
+        <availability>
+          <p>Opera ad accesso libero</p>
+        </availability>
+        <date when="2023">2023</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <msDesc> 
+          <msIdentifier>
+            <country key="CH">Switzerland</country>
+            <settlement>Ginevra</settlement>
+            <repository role="library">
+              Biblioteca di <placeName ref="#ginevra">Ginevra</placeName>
+            </repository>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <title>Morphologie</title>
+              <byline>di<docAuthor>Ferdinand De Saussure,</docAuthor>linguista e semiologo svizzero.</byline>
+              <textLang mainLang="fr">Scritto in lingua francese.</textLang>
+              <docImprint>Ginevra,<docDate>1891</docDate></docImprint>
+            </msItem>
+          </msContents>
+
+		  <physDesc>
+              <objectDesc>
+                <supportDesc>
+                   <support>Fogli di <material>carta </material></support>
+                   <extent>19 fogli.</extent>
+				    <condition>Le pagine risultano appena leggibili con alcune parole cancellate.</condition>
+                </supportDesc>
+              <layoutDesc>
+                <layout columns="1" ruledLines="25">
+                     <p>Le pagine hanno in media 25 righe, non considerando elementi esterni.</p>
+                </layout>
+              </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                  <p>Scritto totalmente dall'autore</p>   
+              </handDesc>
+              <typeDesc>
+                  <p>Scritto in caratteri corsivi dove alcune parole sono sottolineate e altre cancellate.</p>
+              </typeDesc>
+            </physDesc>
+      
+          <history>
+            <summary>Questo manoscritto è formato da un' unica parte.</summary>
+              <origin notAfter="1895">
+                  <p>Gli appunti vennero scritti da <persName>Ferdinand De Saussure</persName>, 
+				  furono presi a <placeName>Ginevra</placeName> in un periodo che va dal <date when="1893">1893</date> al <date when="1894">1894</date>.			 
+				  </p>
+              </origin>
+              <acquisition>
+                  <p>Il documento originale è tratto dalla Biblioteca di <placeName>Ginevra</placeName></p>.
+              </acquisition>
+           </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+	
+	 <profileDesc> <!-- Fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo --> 
+      <langUsage> 
+        <language ident="fr">Francese</language>
+      </langUsage>
+	  
+      <textDesc>
+        <channel mode="ws" />
+        <constitution type="single" />
+        <derivation type="original" />
+        <domain type="education" /> 
+        <factuality type="fact" /> 
+        <interaction type="partial" active="singular" passive="group" /> 
+        <preparedness type="draft" />
+        <purpose type="inform" degree="high" />
+      </textDesc>
+	  
+      <settingDesc>
+        <setting>
+          <name>Testi registrati nella Biblioteca di <placeName>Ginevra</placeName>, <country>Svizzera</country>. </name>
+          <time>
+            <date when="no-date">Senza data</date>
+          </time>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+
+   
+  <facsimile> <!-- Costituisce una rappresentazione digitale di una fonte con testo scritto -->
+    <surface n="1" xml:id="M_18">
+	<graphic url='immagini/ms_fr_03951_07_p018.jpg' xml:id="Pag18" width='495.4px' height='757.4px' />
+		<zone ulx="136" uly="55" lrx="453" lry="71" xml:id="P18_R1"/>
+		<zone ulx="136" uly="81" lrx="407" lry="87" xml:id="P18_R2"/>
+		<zone ulx="134" uly="100" lrx="442" lry="111" xml:id="P18_R3"/>
+		<zone ulx="108" uly="120" lrx="451" lry="128" xml:id="P18_R4"/>
+		<zone ulx="117" uly="144" lrx="456" lry="149" xml:id="P18_R5"/>
+		<zone ulx="114" uly="160" lrx="439" lry="167" xml:id="P18_R6"/>
+		<zone ulx="112" uly="178" lrx="450" lry="187" xml:id="P18_R7"/>
+		<zone ulx="119" uly="198" lrx="451" lry="209" xml:id="P18_R8"/>
+		<zone ulx="131" uly="219" lrx="366" lry="231" xml:id="P18_R9"/>
+		<zone ulx="179" uly="238" lrx="344" lry="254" xml:id="P18_R10"/>
+		<zone ulx="130" uly="267" lrx="452" lry="278" xml:id="P18_R11"/>
+		<zone ulx="114" uly="286" lrx="403" lry="298" xml:id="P18_R12"/>
+		<zone ulx="194" uly="313" lrx="338" lry="320" xml:id="P18_R13"/>
+		<zone ulx="199" uly="332" lrx="443" lry="338" xml:id="P18_R14"/>
+		<zone ulx="135" uly="357" lrx="455" lry="370" xml:id="P18_R15"/>
+		<zone ulx="120" uly="380" lrx="456" lry="393" xml:id="P18_R16"/>
+		<zone ulx="126" uly="406" lrx="451" lry="412" xml:id="P18_R17"/>
+		<zone ulx="124" uly="431" lrx="455" lry="436" xml:id="P18_R18"/>
+		<zone ulx="128" uly="450" lrx="447" lry="457" xml:id="P18_R19"/>
+		<zone ulx="136" uly="474" lrx="449" lry="478" xml:id="P18_R20"/>
+		<zone ulx="132" uly="495" lrx="450" lry="502" xml:id="P18_R21"/>
+		<zone ulx="134" uly="521" lrx="459" lry="528" xml:id="P18_R22"/>
+		<zone ulx="143" uly="541" lrx="449" lry="542" xml:id="P18_R23"/>
+		<zone ulx="142" uly="566" lrx="457" lry="569" xml:id="P18_R24"/>
+		<zone ulx="135" uly="590" lrx="455" lry="596" xml:id="P18_R25"/>
+		<zone ulx="139" uly="607" lrx="455" lry="618" xml:id="P18_R26"/>
+		<zone ulx="137" uly="637" lrx="458" lry="644" xml:id="P18_R27"/>
+		<zone ulx="135" uly="659" lrx="281" lry="666" xml:id="P18_R28"/>
+		<zone ulx="151" uly="675" lrx="454" lry="682" xml:id="P18_R29"/>
+		<zone ulx="331" uly="688" lrx="453" lry="699" xml:id="P18_R30"/>
+    </surface>
+	
+  </facsimile> 
+
+  <facsimile>
+    <surface n="2" xml:id="M_19">
+      <graphic url='immagini/ms_fr_03951_07_p019.jpg' xml:id="Pag19" width='505.4px' height='756.4px' />
+		<zone ulx="119" uly="67" lrx="443" xml:id="P19_R1"/>
+		<zone ulx="129" uly="94" lrx="445" xml:id="P19_R2"/>
+		<zone ulx="91" uly="123" lrx="438" xml:id="P19_R3"/>
+		<zone ulx="68" uly="150" lrx="446" xml:id="P19_R4"/>
+		<zone ulx="136" uly="165" lrx="450" xml:id="P19_R5"/>
+		<zone ulx="142" uly="190" lrx="261" xml:id="P19_R6"/>
+		<zone ulx="165" uly="216" lrx="427" xml:id="P19_R7"/>
+		<zone ulx="111" uly="245" lrx="428" xml:id="P19_R8"/>
+		<zone ulx="124" uly="264" lrx="419" xml:id="P19_R9"/>
+		<zone ulx="134" uly="286" lrx="315" xml:id="P19_R10"/>
+		<zone ulx="244" uly="305" lrx="310" xml:id="P19_R11"/>
+		<zone ulx="253" uly="322" lrx="319" xml:id="P19_R12"/>
+		<zone ulx="131" uly="351" lrx="461" xml:id="P19_R13"/>
+		<zone ulx="127" uly="373" lrx="460" xml:id="P19_R14"/>
+		<zone ulx="139" uly="396" lrx="448" xml:id="P19_R15"/>
+		<zone ulx="141" uly="422" lrx="440" xml:id="P19_R16"/>
+		<zone ulx="142" uly="444" lrx="431" xml:id="P19_R17"/>
+		<zone ulx="144" uly="462" lrx="443" xml:id="P19_R18"/>
+		<zone ulx="152" uly="486" lrx="450" xml:id="P19_R19"/>
+		<zone ulx="162" uly="504" lrx="443" xml:id="P19_R20"/>
+		<zone ulx="159" uly="526" lrx="428" xml:id="P19_R21"/>
+		<zone ulx="157" uly="552" lrx="431" xml:id="P19_R22"/>
+		<zone ulx="71"  uly="581" lrx="453" xml:id="P19_R23"/>
+		<zone ulx="155" uly="597" lrx="431" xml:id="P19_R24"/>
+		<zone ulx="159" uly="620" lrx="439" xml:id="P19_R25"/>
+		<zone ulx="160" uly="638" lrx="431" xml:id="P19_R26"/>
+		<zone ulx="165" uly="661" lrx="435" xml:id="P19_R27"/>
+		<zone ulx="170" uly="682" lrx="446" xml:id="P19_R28"/>
+		<zone ulx="295" uly="691" lrx="460" xml:id="P19_R29"/>
+    </surface>
+  </facsimile>
+
+  <text xml:lang="fr" xml:id="text-fr" subtype="manuscript">
+    <body>
+      <!-- Pagina 18 -->
+      <div type="pagina" n="18">
+          <pb n="18" facs="#Pag18"/>
+		  
+			<ab type="pericope" n="1" xml:id="Per1_Pag18"> 
+                <lb facs="#P18_R1"/>
+				<add place="margin"> <choice><sic>3°</sic><corr>troisiéme</corr></choice> <abbr>cfér<am>.</am></abbr><expan>conférence</expan>page <abbr>3</abbr><expan>être</expan> </add>
+                En quoi consiste le <abbr>changt<am>.</am></abbr><expan>chang<ex>ement</ex></expan> <abbr>morph<am>.</am></abbr> <expan>morph<ex>ologique</ex></expan> qui 
+				
+               <lb facs="#P18_R2"/>
+                s'accomplit d' <choice><sic>1</sic><corr>une</corr></choice> <abbr>époq<am>.</am></abbr> <term ref="#epoque"><expan>époq<ex>ue</ex></expan></term> à l'autre:                
+			</ab>
+			
+			<ab type="pericope" n="2" xml:id="Per2_Pag18">
+			 <lb facs="#P18_R3"/>
+				  <choice><sic>1°</sic><corr>premier</corr></choice> dans l'<term ref="#analyse">analyse</term> <abbr>différ<am>.</am></abbr><expan>différ<ex>ente</ex></expan> <abbr>ds</abbr><expan>des</expan> mêmes
+              
+              <lb facs="#P18_R4"/>
+				 formes, ou la <term ref="#valeur">valeur</term> <abbr>différ<am>.</am></abbr><expan>différ<ex>ente</ex></expan> que la <term ref="#langue">langue</term>
+              
+			  <lb facs="#P18_R5"/>
+				 leur attribue, ou le rapport <abbr>différ<am>.</am></abbr><expan>différ<ex>ente</ex></expan> qu'elle
+              
+			  <lb facs="#P18_R6"/>
+				établit entre elles; tous <term ref="#fait">faits</term> qui restent
+              
+			  <lb facs="#P18_R7"/>
+				Dans le <term ref="#domain">domaine</term> purement <abbr>psychologiq</abbr><expan><term ref="#psicologique">psychologique</term></expan>,
+              
+			  <lb facs="#P18_R8"/>
+				mais n'en sont pas moins des faits positifs.           
+			</ab>
+			
+			<ab type="pericope" n="3" xml:id="Per3_Pag18"> 
+                <lb facs="#P18_R9"/>
+                <abbr>Exe<am>.</am></abbr><expan>Exe<ex>mple</ex></expan>: <abbr>Epoq<am>.</am></abbr><expan>Epoq<ex>ue</ex></expan> <abbr>I</abbr><expan>premier</expan>  <foreign xml:lang="gr">βέλεσ-σι</foreign>
+				
+               <lb facs="#P18_R10"/>
+                <abbr>Epoq<am>.</am></abbr><expan>Epoq<ex>ue</ex></expan> <abbr>II</abbr><expan>deux</expan> <foreign xml:lang="gr">βέλ-εσσι</foreign>       
+			</ab>
+			
+			<ab type="pericope" n="4" xml:id="Per4_Pag18">        
+			   <lb facs="#P18_R11"/>
+                <choice><sic>2°</sic><corr>deuxième</corr></choice> dans la <term ref="#création">création</term> de formes nouvelles,
+               
+               <lb facs="#P18_R12"/>
+                fait plus <term ref="#tangible">tangible</term>, plus matériel :
+              
+			   <lb facs="#P18_R13"/>
+                <abbr>Ep<am>.</am></abbr> <expan>Ep<ex>oque</ex></expan> <abbr>I</abbr><expan>premier</expan> <foreign xml:lang="gr">θηρσ</foreign>
+             
+			   <lb facs="#P18_R14"/>
+				<abbr>Ep<am>.</am></abbr> <expan>Ep<ex>oque</ex></expan> <abbr>II</abbr><expan>deux</expan> <foreign xml:lang="gr">θήρσσι</foreign> (<abbr>créat<am>.</am></abbr><expan>créat<ex>ion</ex></expan> <abbr>nouv<am>.</am></abbr> <expan>nouv<ex>elle</ex></expan>).             
+			</ab>
+						
+			<ab type="pericope" n="5" xml:id="Per5_Pag18"> 
+               <lb facs="#P18_R15"/>
+                Reprenons le <abbr>1°</abbr><expan>premier</expan> fait : Le <term ref="#chg">changement</term> 
+               
+			    <lb facs="#P18_R16"/>
+                 survenu <abbr>ds</abbr><expan>dans</expan> l'<term ref="#aper">aperception</term>  de <foreign xml:lang="gr">βέλεσσι</foreign> par 
+                
+			    <lb facs="#P18_R17"/>
+                la <abbr>lgue</abbr><expan>langue</expan>, resterait <term ref="#lettCls">lettre close</term> si nous en 
+               
+			    <lb facs="#P18_R18"/>
+                cherchions la <term ref="#raison">raison</term> <abbr>ds</abbr><expan>dans</expan> cette forme elle-<abbr>mê</abbr><expan>même</expan>.              
+			</ab>
+			
+			<ab type="pericope" n="6" xml:id="Per6_Pag18">
+				<lb facs="#P18_R19"/> 
+				Elle a sa source <abbr>uniq<am>.</am></abbr> <expan>uniq<ex>ue</ex></expan> <emph rend="underline">dans les  formes</emph>
+
+				<lb facs="#P18_R20"/>
+				 <emph rend="underline"><term ref="#concurrent">concurrentes</term></emph>, ainsi que <abbr>ns</abbr><expan>nous</expan> l'avons déjà dit 
+				 <del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del>.
+			</ab>
+			
+			<ab type="pericope" n="7" xml:id="Per7_Pag18">			
+				<lb facs="#P18_R21"/>
+				  Comme l'<abbr>élém<am>.</am></abbr> <term ref="#element"><expan>élém<ex>ent</ex></expan></term> -<hi rend="underline"><foreign xml:lang="gr">εσ</foreign></hi>- ne se retrouve
+				
+				<lb facs="#P18_R22"/>
+				  pas dans <foreign xml:lang="gr">βέλει</foreign>,<foreign xml:lang="gr">βελέων</foreign>,etc..., depuis
+				
+				<lb facs="#P18_R23"/>
+				  la chute de l's, la langue <del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del>.
+				
+				<lb facs="#P18_R24"/>
+				 <del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del> n'a aucune indi = 
+				
+				<lb facs="#P18_R25"/>
+				= cation qui lui permette de couper
+
+				<lb facs="#P18_R26"/>
+				 <foreign xml:lang="gr">βέλεσ-σι</foreign>, et elle coupe <abbr>maintt</abbr><expan>maintenant</expan> <foreign xml:lang="gr">βέλ-εσσι</foreign>			
+			</ab>
+			
+			<ab type="pericope" n="8" xml:id="Per8_Pag18">
+				<lb facs="#P18_R27"/>
+				 Ainsi le mouvement ne s'est pas produit
+				
+				<lb facs="#P18_R28"/>
+				entre <foreign xml:lang="gr">βέλεσ-σι</foreign>
+				
+				<lb facs="#P18_R29"/>
+				et <foreign xml:lang="gr">βέλ-εσσι</foreign>, ce qui serait simplement 
+				
+				<lb facs="#P18_R30"/>
+				absurde à dire.				
+			</ab>		
+        </div>
+           
+      <!-- Pagina 19 -->
+        <div type="pagina" n="19">
+            <pb n="19" facs="#Pag19"/>          
+            <ab type="pericope" n="1" xml:id="Per1_Pag19">		
+				<lb facs="#P19_R1"/>
+					Mais comme <abbr>tj</abbr><expan>toujours</expan> en <abbr>morphol<am>.</am></abbr> <term ref="#morphologie"><expan>morphol<ex>ogie</ex></expan></term>, le mouvement
+				 
+				<lb facs="#P19_R2"/>
+					vient d'à côté.  Et nous retrouvons
+				
+				<lb facs="#P19_R3"/>
+					donc la condition <term ref="#primordiale">primordiale</term> de toute
+				
+				<lb facs="#P19_R4"/>
+					<abbr>opérat<am>.</am></abbr> <expan>opérat<ex>ion</ex></expan> <del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del> <abbr>morphol<am>.</am></abbr> <term ref="#morphologique"><expan>morphol<ex>ogique</ex></expan></term>. Elle porte sur <del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del>
+				
+				<lb facs="#P19_R5"/>
+					La diversité ou sur le rapport des formes
+				
+				<lb facs="#P19_R6"/>
+					<term ref="#simultanées">simultanées</term>.			
+			</ab>
+			
+			<ab type="pericope" n="2" xml:id="Per2_Pag19"> 
+				
+				<lb facs="#P19_R7"/>
+					 Reprenons le  <choice><sic>2°</sic><corr> deuxième</corr></choice>fait, les créations
+				
+				<lb facs="#P19_R8"/>
+					nouvelles. Ici la chose est encore plus
+				
+				<lb facs="#P19_R9"/>
+					évidente : pas question, n'est-ce pas
+				
+				<lb facs="#P19_R10"/>
+					de mettre en relation
+								
+				<lb facs="#P19_R11"/>
+					<foreign xml:lang="gr">θηρσί</foreign>
+				
+				<lb facs="#P19_R12"/>
+					<foreign xml:lang="gr">θήρεσσι</foreign>				
+			</ab>
+			
+			<ab type="pericope" n="3" xml:id="Per3_Pag19"> 
+				<lb facs="#P19_R13"/>
+					<del rend="overstrike"> Le fait qui a on </del> L'impulsion <abbr>linguistiq<am>.</am></abbr> <expan>linguistiq<ex>ue</ex></expan>
+				
+				<lb facs="#P19_R14"/>
+					qui a engendré <foreign xml:lang="gr">θήρεσσι</foreign> vient <abbr>naturelle</abbr><expan>naturellement</expan>
+								
+				<lb facs="#P19_R15"/>
+				<add place="margin"> de <foreign xml:lang="gr">βέλεσσι</foreign>, etc..</add> d'à côté,  <del rend="overstrike"> <add place="above">je répète le <term ref="#mot">mot</term></add> <gap reason="illeggibile" unit="chars"/></del>
+				
+				<lb facs="#P19_R16"/>
+					<del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del>
+				
+				<lb facs="#P19_R17"/>
+					<del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del>				
+			</ab>
+			
+			<ab type="pericope" n="4" xml:id="Per4_Pag19">			
+				<lb facs="#P19_R18"/>
+					Pour créer <foreign xml:lang="gr">θήρεσσι</foreign> il fallait un
+				<lb facs="#P19_R19"/>
+					<term ref="#modèle">modèle</term>; or <abbr>naturellet</abbr><expan>naturellement</expan> ce modèle <choice><sic>deit</sic><corr>devait</corr></choice> 
+							
+				<lb facs="#P19_R20"/>
+					être très <choice><sic>coñu</sic><corr>connu</corr></choice> de celui qui <del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del>.
+				
+				<lb facs="#P19_R21"/>
+					lançait le <term ref="#néologisme">néologisme</term>; c'est dire
+				
+				<lb facs="#P19_R22"/>
+					que le fait s'est passé entre formes
+			
+				<lb facs="#P19_R23"/>
+					<add place="margin">on ne peut plus</add> <del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del> <term ref="#contemporaines">contemporaines</term>, 
+				
+				<lb facs="#P19_R24"/>
+					<del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del>
+								
+				<lb facs="#P19_R25"/>
+					<del rend="overstrike"><gap reason="illeggibile" unit="chars"/></del> puisque l'association
+				
+				<lb facs="#P19_R26"/>
+					s'est faite dans le cerveau du même
+				
+				<lb facs="#P19_R27"/>
+					individu, et qu'il n'a fallu <choice><sic>même</sic><corr>môme</corr></choice>
+				
+				<lb facs="#P19_R28"/>
+					qu'un quart de seconde pour conclure
+				
+				<lb facs="#P19_R29"/>
+					de <foreign xml:lang="gr">βέλ-εσσι</foreign> à <foreign xml:lang="gr">θήρ-εσσι</foreign>					
+			</ab>
+        </div>
+
+    <!-- Traduzione pagina 18 -->
+         <div type="traduzione" n="1">        
+          <ab n="1" corresp="Per1_Pag18" xml:lang="it">
+            In che consiste il cambiamento morfologico che si compie da un’epoca all’altra :
+          </ab>
+
+          <ab n="2" corresp="Per2_Pag18" xml:lang="it">
+		  1° Nell’analisi differente delle stesse forme, o il differente valore che la lingua attribuisce loro, o il differente rapporto che essa stabilisce tra loro;
+		  tutti fatti che restano nel dominio puramente psicologico, ma non per questo sono fatti meno positivi.
+          </ab>
+		
+		   <ab n="3" corresp="Per3_Pag18" xml:lang="it">
+		   Esempio: Epoca I βἐλεσ-σι
+		            Epoca II βἐλ-εσσι
+          </ab>
+		  
+		   <ab n="4" corresp="Per4_Pag18" xml:lang="it">
+		   2° Nella creazione di forme nuove, fatto più tangibile, più materiale:
+		   Epoca I θηpσι
+		   Epoca II θηpεσσι (nuova creazione)
+          </ab>
+		  
+		  <ab n="5" corresp="Per5_Pag18" xml:lang="it">
+		   Riprendiamo il primo fatto: Il cambiamento sopravvenuto nell’appercezione di βἐλεσσι da parte della lingua resterebbe lettera morta se noi ne cercassimo ragione in quella forma stessa.
+          </ab>
+		  
+		  <ab n="6" corresp="Per6_Pag18" xml:lang="it">
+		   Ha la propria fonte unicamente nelle forme concorrenti, come abbiamo già detto.
+          </ab>
+		  
+		  <ab n="7" corresp="Per7_Pag18" xml:lang="it">
+		   Poichè l'elemento -εσ- non si ritrova in βἐλει, βἐλἐωv, ecc. dopo la caduta della s, la lingua non ha alcuna indicazione che le permetta di tagliare βἐλεσ-σι e taglia adesso βἐλ-εσσι.
+          </ab>
+		  
+		  <ab n="8" corresp="Per8_Pag18" xml:lang="it">
+		   Quindi il movimento non è avvenuto tra βέλεσ-σι e βέλ-εσσι, il che sarebbe semplicemente assurdo a dirsi.
+          </ab>
+		  
+        </div>
+
+	<!-- Traduzione pagina 19 -->
+        <div type="traduzione" n="2">
+          <ab n="1" corresp="Per1_Pag19" xml:lang="it">
+           Ma come sempre in morfologia, il movimento viene da ciò che è lì accanto.
+		   E ritroviamo dunque la condizione primordiale di ogni operazione morfologica.
+		   Essa concerne la diversità o il rapporto di forme simultanee.
+          </ab>
+		  
+		  <ab n="2" corresp="Per2_Pag19" xml:lang="it">
+			Riprendiamo il secondo fatto, le nuove creazioni. Qui, la cosa è ancor più evidente: 
+			Non si tratta minimamente di mettere in relazione
+			θηpσι
+			θηpεσσι
+          </ab>
+		  
+		  <ab n="3" corresp="Per3_Pag19" xml:lang="it">
+			L'impulsione linguistica che ha generato θηpεσσι viene naturalmente da ciò che è lì accanto, ripeto l'espressione: da βἐλεσσι, ecc.
+          </ab>
+		  
+		  <ab n="4" corresp="Per4_Pag19" xml:lang="it">
+			Per creare θηpεσσι, ci voleva un modello; ora, naturalmente tale modello doveva essere assai noto a colui che lanciò il neologismo; come a dire che il fatto è avvenuto tra forme contemporanee
+			che più non si può, giacchè l'associazione è stata fatta nel cervello dello stesso individuo, e non c'è voluto più d'un quarto di secondo per concludere da βἐλ-εσσι a θηp-εσσι 
+          </ab>
+        </div>
+
+    </body>
+      <back>
+        <div type="addList">    
+		  <listBibl> <!-- Lista di citazioni bibliografiche -->
+            <bibl xml:id="corsoDiLing">
+              <author ref="#FDS">
+                <forename>Ferdinand</forename>
+                <surname>De Saussure</surname>
+              </author>
+              <author xml:id="TDM">
+                <forename>Tullio</forename>
+                <surname>De Mauro</surname>
+              </author>
+              <title type="main">Corso di linguistica generale</title>
+              <title type="sub">Introduzione, traduzione e commento di Tullio De Mauro</title>
+              <pubPlace>
+                <placeName xml:id="Rm">Roma</placeName>
+              </pubPlace>
+              <pubPlace>
+                <placeName xml:id="Br">Bari</placeName>
+              </pubPlace>
+              <date when="1976">1976</date>
+              <publisher>Editori Laterza</publisher>
+            </bibl>
+
+            <bibl xml:id="CFS62" xml:lang="french" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+              <author xml:id="AC">
+                <forename>Alessandro</forename>
+                <surname>Chidichimo</surname>
+              </author>
+                <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+                <pubPlace ref="#GN">
+                  <placeName ref="#GN">Ginevra</placeName>
+                </pubPlace>
+                <publisher>Librairie Droz</publisher>
+                <date when="2009">2009</date>
+            </bibl>
+          </listBibl>
+
+          
+          <listPerson> <!-- Contiene una lista di descrizioni, ciascuna delle quali fornisce informazioni relative a una persona -->
+            <head>Persone</head>
+              <person xml:id="FdS"> 
+                <persName role="author">
+                  <forename>Ferdinand</forename>
+                    <surname>de Saussure</surname>
+                  </persName>
+                  <occupation> linguistic </occupation>
+                  <sex>M</sex>
+                  <birth>
+                    <date when="1857-11-26">26th November 1857</date>
+                    <placeName ref="#GE">
+                      <settlement type="municipality">Genève</settlement>
+                      <settlement type="department" key="GE">Genève</settlement>
+                      <country key="CH">Switzerland</country>
+                    </placeName>
+                  </birth>
+                <death>
+                  <date when="1913-02-22">22nd February 1913</date>
+                    <placeName ref="#VlC">
+                      <settlement type="municipality">Vufflens-le-Château</settlement>
+                      <settlement type="canton" key="Vaud">Vaud</settlement>
+                      <country key="CH">Svizzera</country>
+                    </placeName>
+                  </death> 
+              </person>
+          </listPerson>
+
+          
+          <listPlace> <!-- Contiene una lista di luoghi -->
+              <head>Luoghi</head>
+			  
+              <place xml:id="Ginevra">
+                  <placeName ref="https://www.treccani.it/enciclopedia/ginevra/">Ginevra</placeName>
+                  <settlement>Ginevra</settlement>
+                  <country>Svizzera</country>
+              </place>
+
+              <place xml:id="Roma">
+                  <placeName ref="https://www.treccani.it/enciclopedia/roma/">Roma</placeName>
+                  <settlement>Lazio</settlement>
+                  <country>Italia</country>
+              </place>
+              
+              <place xml:id="Pisa">
+                  <placeName ref="https://www.treccani.it/enciclopedia/pisa/">Pisa</placeName>
+                  <settlement>Toscana</settlement>
+                  <country>Italia</country>
+              </place>
+
+              <place xml:id="Bari">
+                  <placeName ref="https://www.treccani.it/enciclopedia/bari/">Bari</placeName>
+                  <settlement>Puglia</settlement>
+                  <country>Italia</country>
+              </place>
+
+              <place xml:id="Cagliari">
+                  <placeName ref="https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
+                  <settlement>Sardegna</settlement>
+                  <country>Italia</country>
+              </place>
+
+              <place xml:id="Benevento">
+                  <placeName ref="https://www.treccani.it/enciclopedia/roma/">Benevento</placeName>
+                  <settlement>Campania</settlement>
+                  <country>Italia</country>
+              </place>
+          </listPlace>
+		  
+		  
+          <listOrg> <!-- Contiene un elenco di elementi, ciascuno dei quali fornisce informazioni su un'organizzazione  -->
+            <org xml:id="UniversitàDiPisa">
+              <orgName ref="https://it.wikipedia.org/wiki/Universit%C3%A0_di_Pisa">University of Pisa</orgName>
+                  <placeName ref="Pisa">Pisa</placeName>
+            <desc>
+                L'Università di Pisa è un'Università pubblica situata a Pisa, in Italia.
+            </desc>
+            </org>
+          </listOrg>
+        </div>
+		
+		
+		 <div type="glossario">
+          <list type="terminology">
+			 <label>
+              <term xml:id="epoque" xml:lang="fr">epoque</term>
+              <term ref="#epoque" xml:lang="it">Epoca</term>
+            </label>
+            <item>
+             <gloss target="#epoque" xml:lang="it" source="https://www.treccani.it/vocabolario/epoca/">
+                 <hi rend="bold">Epoca</hi>: è un punto fisso nella storia, segnato da qualche avvenimento memorabile, da cui si comincia a contare una nuova serie di anni.
+             </gloss>
+            </item>
+			
+			  <label>
+              <term xml:id="langue" xml:lang="fr">langue</term>
+              <term ref="#langue" xml:lang="it">Lingua</term>
+            </label>
+            <item>
+              <gloss target="#langue" xml:lang="it" source="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure"> 
+               <hi rend="bold">Lingua</hi>: intesa come un sistema di segni che formano il codice di un idioma, va distinta dalla parole, cioè dall'atto linguistico del parlante, che è "individuale" e "irripetibile".
+              </gloss>
+            </item>
+			<label>
+              <term xml:id="différente" xml:lang="fr">différente</term>
+              <term ref="#différente" xml:lang="it">Diverso</term>
+			</label>
+			<item>
+              <gloss target="#différente" xml:lang="it" source="https://www.treccani.it/vocabolario/diverso/"> 
+				<hi rend="bold">Diverso</hi>: è un termine che esprime la non somiglianza tra due o più cose.
+              </gloss>
+			</item>
+
+			<label>
+              <term xml:id="fait" xml:lang="fr">fait</term>
+              <term ref="#fait" xml:lang="it">Fatto</term>
+			</label>
+			<item>
+              <gloss target="#fait" xml:lang="it" source="https://www.treccani.it/vocabolario/fatto2/"> 
+				<hi rend="bold">Fatto</hi>: è un termine che esprime un'avvenimento, azione, fenomeno, ciò che si compie o si è compiuto.
+              </gloss>
+			</item>
+
+			<label>
+              <term xml:id="domain" xml:lang="fr">domain</term>
+              <term ref="#domain" xml:lang="it">Campo</term>
+			</label>
+			<item>
+				<gloss target="#domain" xml:lang="it" source="https://www.treccani.it/vocabolario/campo/"> 
+				<hi rend="bold">Campo</hi>: in psicologia è l’insieme dei fenomeni che in un dato momento appaiono alla coscienza di un individuo.
+              </gloss>
+			</item>
+
+			<label>
+              <term xml:id="psicologique" xml:lang="fr">psicologique</term>
+              <term ref="#psicologique" xml:lang="it">Psicologico</term>
+			</label>
+			<item>
+              <gloss target="#psicologique" xml:lang="it" source="https://www.treccani.it/vocabolario/psicologico/"> 
+				<hi rend="bold">Psicologico</hi>: è un aggettivo che riguarda alla psicologia.
+              </gloss>
+			</item>
+
+			<label>
+              <term xml:id="création" xml:lang="fr">création</term>
+              <term ref="#création" xml:lang="it">Creazione</term>
+			</label>
+			<item>
+              <gloss target="#création" xml:lang="it" source="https://www.treccani.it/vocabolario/creazione/"> 
+				<hi rend="bold">Creazione</hi>: è l'ideazione, invenzione ed esecuzione materiale di un’opera.
+              </gloss>
+			</item>
+
+			<label>
+              <term xml:id="tangible" xml:lang="fr">tangible</term>
+              <term ref="#tangible" xml:lang="it">Tangibile</term>
+			</label>
+			<item>
+              <gloss target="#tangible" xml:lang="it" source="https://www.treccani.it/vocabolario/tangibile/"> 
+				<hi rend="bold">Tangibile</hi>: indica un oggetto che è percepibile col tatto.
+              </gloss>
+			</item>
+
+			<label>
+              <term xml:id="aper" xml:lang="fr">aperception</term>
+              <term ref="#aper" xml:lang="it">Appercezione</term>
+            </label>
+            <item>
+              <gloss target="#aper" xml:lang="it" source="https://it.wikipedia.org/wiki/Appercezione"> 
+              <hi rend="bold">Appercezione</hi>: indica una forma particolare di percezione mentale, che si distingue per chiarezza e consapevolezza di sé.
+              </gloss>
+            </item>
+			
+			<label>
+              <term xml:id="lettCls" xml:lang="fr">lettre close</term>
+              <term ref="#lettCls" xml:lang="it">Lettera morta</term>
+            </label>
+            <item>
+              <gloss target="#aper" xml:lang="it" source="https://it.wikipedia.org/wiki/Appercezione"> 
+            <hi rend="bold">Lettera morta</hi>: indica propriamente una disposizione priva di valore. scrivere a lettere da speziali.
+              </gloss>
+            </item>
+			
+			<label>
+              <term xml:id="chg" xml:lang="fr">changement</term>
+              <term ref="#chg" xml:lang="it">Cambiamento</term>
+            </label>
+            <item>
+              <gloss target="#chg" xml:lang="it" source="https://dizionari.corriere.it/dizionario_italiano/C/cambiamento.shtml"> 
+				<hi rend="bold">Cambiamento</hi>: indica la sostituzione o avvicendamento che riguarda in tutto o in parte la sostanza o l'aspetto di qualcosa o di qualcuno
+              </gloss>
+            </item>
+			
+			<label>
+              <term xml:id="raison" xml:lang="fr">raison</term>
+              <term ref="#raison" xml:lang="it">Ragione</term>
+            </label>
+            <item>
+              <gloss target="#raison" xml:lang="it" source="https://www.treccani.it/vocabolario/ragione/"> 
+				<hi rend="bold">Ragione</hi>: indica la facoltà di pensare, mettendo in rapporto i concetti e le loro enunciazioni, e insieme la facoltà che guida a ben giudicare, a discernere cioè il vero e il falso, il giusto e l’ingiusto, il bene e il male.
+              </gloss>
+            </item>
+			
+			<label>
+              <term xml:id="valeur" xml:lang="fr">valeur</term>
+              <term ref="#valeur" xml:lang="it">Rapporto</term>
+            </label>
+            <item>
+              <gloss target="#valeur" xml:lang="it" source="https://www.treccani.it/vocabolario/rapporto/"> 
+				<hi rend="bold">Rapporto</hi>: indica la relazione, corrispondenza o connessione, per lo più reciproca, che intercorre tra due o più azioni, situazioni e condizioni, fatti e fenomeni.
+              </gloss>
+            </item>
+			<label>
+              <term xml:id="primordiale" xml:lang="fr">primordiale</term>
+              <term ref="#primordiale" xml:lang="it">Fondamentale</term>
+			</label>
+            <item>
+              <gloss target="#primordiale" xml:lang="it" source="https://www.treccani.it/vocabolario/fondamentale/"> 
+				<hi rend="bold">Fondamentale</hi>: indica un qualcosa che costituisce la base di qualcos'altro.
+              </gloss>
+            </item>
+          
+			<label>
+              <term xml:id="morphologique" xml:lang="fr">morfologique</term>
+              <term ref="#morphologique" xml:lang="it">Morfologico</term>
+			</label>
+            <item>
+              <gloss target="#morfologique" xml:lang="it" source="https://www.treccani.it/vocabolario/morfologico/"> 
+				<hi rend="bold">Morfologico</hi>: indica un qualcosa che si riferisce alla struttura, alla forma.
+              </gloss>
+            </item>
+          
+			<label>
+              <term xml:id="forme" xml:lang="fr">forme</term>
+              <term ref="#forme" xml:lang="it">Forma</term>
+			</label>
+            <item>
+              <gloss target="#forme" xml:lang="it" source="https://www.treccani.it/vocabolario/forma/"> 
+				<hi rend="bold">Forma</hi>: indica aspetto esteriore con cui si configura ogni oggetto corporeo o fantastico, o una sua rappresentazione.
+              </gloss>
+            </item>
+
+           <label>
+              <term xml:id="simultanées" xml:lang="fr">simultanées</term>
+              <term ref="#simultanées" xml:lang="it">Simultaneo</term>
+			</label>
+			
+            <item>
+              <gloss target="#simultanées" xml:lang="it" source="https://www.treccani.it/vocabolario/simultaneo/"> 
+				<hi rend="bold">Simultaneo</hi>: indica che avviene nello stesso momento, che si svolge nello stesso tempo.
+              </gloss>
+            </item>
+          
+			<label>
+              <term xml:id="mot" xml:lang="fr">mot</term>
+              <term ref="#mot" xml:lang="it">Parola</term>
+			</label>
+            <item>
+              <gloss target="#mot" xml:lang="it" source="https://www.treccani.it/vocabolario/parola/"> 
+				<hi rend="bold">Parola</hi>: indica complesso di fonemi, cioè di suoni articolati, o anche singolo fonema mediante i quali l’uomo esprime una nozione generica.
+              </gloss>
+            </item>
+			
+			<label>
+              <term xml:id="modèle" xml:lang="fr">modèle</term>
+              <term ref="#modèle" xml:lang="it">Modello</term>
+			</label>
+            <item>
+              <gloss target="#modèle" xml:lang="it" source="https://www.treccani.it/vocabolario/modello/"> 
+				<hi rend="bold">Modello</hi>: indica termine di riferimento ritenuto valido come esempio o prototipo e degno d'imitazione.
+              </gloss>
+            </item>
+			
+			<label>
+              <term xml:id="néologisme" xml:lang="fr">néologisme</term>
+              <term ref="#néologisme" xml:lang="it">Neologismo</term>
+			</label>
+            <item>
+              <gloss target="#néologisme" xml:lang="it" source="https://www.treccani.it/vocabolario/neologismo/"> 
+				<hi rend="bold">Neologismo</hi>: indica in genere, parola o locuzione nuova, non appartenente cioè al corpo lessicale di una lingua, tratta per derivazione o composizione da parole già in uso o introdotta con adattamenti da altra lingua oppure formata con elementi greci o latini.
+              </gloss>
+            </item>
+			
+			<label>
+              <term xml:id="contemporaines" xml:lang="fr">contemporaines</term>
+              <term ref="#contemporaines" xml:lang="it">Contemporaneo</term>
+			</label>
+            <item>
+              <gloss target="#contemporaines" xml:lang="it" source="https://www.treccani.it/vocabolario/contemporaneo/"> 
+				<hi rend="bold">Contemporaneo</hi>: chi o ciò che vive o accade nello stesso tempo di qualcun altro o qualcos’altro. Oppure, cambiando punto di riferimento, si può definire contemporaneo chi o ciò che appartiene all’età presente.           
+			 </gloss>
+            </item>
+          </list>
+        </div>
+      </back> 
+  </text>
+</TEI>
