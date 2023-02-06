@@ -1,0 +1,364 @@
+body {
+	background-image:url('immagini/sfondo-carta-antica.jpg');
+	}
+	
+.navMenu{
+	background-image: url('immagini/navbar.png');
+	padding:50px;
+	text-align:center;
+
+}	
+	
+.navMenu a {
+  color: #51301F;
+  text-decoration: none;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  display: inline;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 80px;
+  width: 100px;
+  padding: 15px;
+}
+
+.navMenu a:hover {
+  color: white;
+  
+}
+
+#introduzione{
+	text-align:center;
+	color:#51301F;
+}
+
+#materiale{
+	text-align:center;
+	color:#51301F;
+}
+#legenda{
+	text-align:center;
+	color:#51301F;
+}
+#btnTitolo{
+	text-align:center;
+	color:#51301F;
+}
+#trad1{
+	text-align:center;
+	color:#51301F;
+	
+}
+#trad2{
+	text-align:center;
+	color:#51301F;
+	
+}
+#pag18{
+	text-align:center;
+	color:#51301F;
+}
+#pag19{
+	text-align:center;
+	color:#51301F;
+}
+#gloss{
+	text-align:center;
+	color:#51301F;
+}
+#rif{
+	text-align:center;
+	color:#51301F;
+}
+#blib{
+	text-align:center;
+	color:#51301F;
+}
+
+.text-traduzione{
+	font-size:18px;
+}
+#box1,#box2,#box5 {
+	text-align:center; 
+	font-size:17px;
+	background-image:url('immagini/sfondo.jpg');
+	padding:20px;
+	background-repeat: no-repeat; 
+	background-size: cover;
+} 
+#box5 {
+	text-align:center; 
+	font-size:17px;
+	background-image:url('immagini/sfondo.jpg');
+	padding:5px;
+	background-repeat: no-repeat; 
+	background-size: cover;
+} 
+
+#box3, #box4{
+	text-align:left; 
+	font-size:17px;
+	background-image:url('immagini/sfondo.jpg');
+	padding:20px;
+	background-repeat: no-repeat; 
+	background-size: cover;
+} 
+.boxTrascrizione{
+	 display: flex;
+	 margin:auto;
+}
+
+.img-wrapper{  
+     margin-left: 5%;  
+ }  
+
+ .trascrizione { 
+	padding-left:50px;
+    max-height: 660px;
+    overflow-y: scroll; 
+	
+ } 
+ .box-trascrizione1{
+	 margin-left:5%;
+	 background-image:url('immagini/contenuto.jpg');
+	  background-repeat: no-repeat; 
+	  background-size: cover; 
+	  width:35%;
+ }
+ .box-trascrizione2{
+	  margin-left:5%;
+	  background-image:url('immagini/contenuto.jpg');
+	  background-repeat: no-repeat; 
+	  background-size: cover;
+	  width:35%;
+ }
+ 
+ .box-Glossario{
+	 margin-top:50px;
+ }
+ 
+ .box-Bibliografia{
+	 margin-top:50px;
+ }
+  
+ .box-Riferimenti{
+	 margin-top:50px;
+ }
+  .box-pag19{
+	 margin-top:30px;
+ }
+
+ .box-legenda > p{ 
+	 font-size:25px;
+	 text-align:center;
+	 padding:40px;
+}
+
+.box-btn > p{
+	 padding:40px;
+	margin:0px;
+}
+
+#red{
+color:red;
+font-weight:bold;
+ margin:0px;
+}
+
+#blue{
+color:#007fff;
+font-weight:bold;
+margin:0px;
+}
+
+#purple{
+color: #8F00ff;
+font-weight:bold;
+margin:0px;
+}
+
+#fucsia{
+color:#f400a1;
+font-weight:bold;
+margin:0px;
+}
+
+#green{
+color:green;
+font-weight:bold;
+margin:0px;
+}
+
+.box-legBtn{
+	display:flex;
+}
+
+.btnTerm {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: red;
+
+}
+
+.btnAbbr {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: #8F00ff;
+}
+
+.btnDel {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: green;
+}
+
+.btnCorr{
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: #f400a1;
+}
+
+.btnParStra {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: #007fff;
+}
+
+
+.btnHideTerm {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: red;
+margin-left:3px;
+}
+
+.btnHideAbbr {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: #8F00ff;
+margin-left:3px;
+}
+
+.btnHideDel {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: green;
+margin-left:3px;
+}
+
+.btnHideCorr {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: #f400a1;
+margin-left:3px;
+}
+
+.btnHideParStra {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 7px 20px;
+border: solid 1px #0076a3;
+background: #007fff;
+margin-left:3px;
+}
+
+.corr {
+    display: none;
+}
+
+.rowBtn{
+	display:flex;
+}
+
+
+.gap{
+	text-decoration: line-through;
+ } 
+
+
+.del{
+	text-decoration: line-through;
+}
+
+ .glossario{
+     max-height: 350px;
+    overflow-y: scroll;
+	text-align:center!important;
+ }
+ 
+.glossario span {
+    display: block;
+}
+
+.glossario span:nth-child(odd) {
+	display: none; 
+}
+
+.glossario span:nth-child(even) {
+  visibility:hidden;
+}
+
+b {
+    color: #51301F;
+	text-transform:uppercase;
+}
